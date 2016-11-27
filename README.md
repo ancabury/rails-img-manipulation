@@ -5,3 +5,6 @@
 
 ###Rails version
 `gem rails 5.0`
+
+In order to use the rmagick gem follow this steps:
+- `sudo apt-get install libmagickwand-dev`

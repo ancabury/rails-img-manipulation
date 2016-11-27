@@ -16,6 +16,8 @@ gem 'sprockets', '~> 3.7'
 gem 'haml', '~> 4.0', '>= 4.0.7'
 gem 'simple_form', '~> 3.2', '>= 3.2.1'
 
+gem 'rmagick', '~> 2.15', '>= 2.15.4'
+
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 3.0'
 # Use ActiveModel has_secure_password
