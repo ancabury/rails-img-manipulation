@@ -1,0 +1,20 @@
+base: &base
+  adapter: postgresql
+  encoding: unicode
+  pool: 15
+  host: localhost
+  timeout: 5000
+  password:
+  username:
+
+development:
+  database: dev_img_manipulation
+  <<: *base
+
+test:
+  database: test_img_manipulation
+  <<: *base
+
+production:
+  database: prod_img_manipulation
+<<: *base
