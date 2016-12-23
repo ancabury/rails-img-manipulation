@@ -1,0 +1,7 @@
+%h3 Import image for processing
+
+= form_tag(images_path, action: :post, multipart: true, class: 'form-inline pull-inline') do
+  .form-group
+    = file_field_tag :file
+  .form-group
+    = submit_tag 'SUBMIT', class: 'btn btn-default btn-right custom-btn'

@@ -8,3 +8,4 @@
 
 In order to use the rmagick gem follow this steps:
 - `sudo apt-get install libmagickwand-dev`
+
